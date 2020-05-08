@@ -1,6 +1,6 @@
 var myObject = {prop: "1"}
 
-function destrucivelyUpdateObjectWithKeyAndValue(object, key, value){
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
  object[key] = value
  return object
 }
